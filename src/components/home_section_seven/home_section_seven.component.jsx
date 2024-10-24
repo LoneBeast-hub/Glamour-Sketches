@@ -6,6 +6,10 @@ import BLUESHIRTONE from '../../assets/blue_shirt.jpg';
 import BLUESHIRTTWO from '../../assets/blue_shirt_2.jpg';
 import GREENSHIRTONE from '../../assets/green_shirt_1.jpg';
 import GREENSHIRTTWO from '../../assets/green_shirt_2.jpg';
+import TROUSERS from '../../assets/trousers.jpg';
+import BROWNTROUSERONE from '../../assets/brown_trouser_1.jpg';
+import BLACKTROUSERONE from '../../assets/black_trouser_1.jpg';
+import WHITETROUSERONE from '../../assets/white_trouser_1.jpg';
 import IMG8 from '../../assets/home_section_eight.jpg';
 
 const cataloguesData = [
@@ -28,24 +32,29 @@ const cataloguesData = [
     },
     {
       id: 2,
-      name: 'Winter Collection',
-      image: IMG8,
+      name: 'Trousers',
+      image: TROUSERS,
       listings: [
         {
           id: 201,
-          title: 'Coats & Jackets',
-          images: [IMG8, IMG8],
+          title: 'Black Trouser',
+          images: [BLACKTROUSERONE],
         },
         {
           id: 202,
-          title: 'Winter Accessories',
-          images: [IMG8, IMG8],
+          title: 'Brown Trouser',
+          images: [BROWNTROUSERONE],
+        },
+        {
+          id: 203,
+          title: 'White Trouser',
+          images: [WHITETROUSERONE],
         },
       ],
     },
     {
         id: 4,
-        name: 'Summer Collection',
+        name: 'Caps',
         image: IMG8,
         listings: [
           {
