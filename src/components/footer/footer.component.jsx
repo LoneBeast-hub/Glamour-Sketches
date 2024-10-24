@@ -23,7 +23,7 @@ const Footer = () => {
                             {/* icon */}
                             <FaEnvelope className="text-[1.4rem] text-[#d3a2ad]" />
                             {/* email */}
-                            <p className="text-[1.6rem]">glamourclothings991@gmail.com</p>
+                            <p className="text-[1.6rem]">Glamourclothings991@gmail.com</p>
                         </div>
                     </div>
                     {/* CEO NAME */}
