@@ -1,79 +1,79 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { useState } from 'react';
-import IMG1 from '../../assets/home_section_one.webp';
-import IMG2 from '../../assets/home_section_two.webp';
-import IMG3 from '../../assets/home_section_three.webp';
-import IMG4 from '../../assets/home_section_four.webp';
-import IMG5 from '../../assets/home_section_five.webp';
+import SHIRTS from '../../assets/shirts.jpg';
+import BLUESHIRTONE from '../../assets/blue_shirt.jpg';
+import BLUESHIRTTWO from '../../assets/blue_shirt_2.jpg';
+import GREENSHIRTONE from '../../assets/green_shirt_1.jpg';
+import GREENSHIRTTWO from '../../assets/green_shirt_2.jpg';
 import IMG8 from '../../assets/home_section_eight.jpg';
 
 const cataloguesData = [
     {
       id: 1,
-      name: 'Summer Collection',
-      image: IMG1,
+      name: 'Shirts',
+      image: SHIRTS,
       listings: [
         {
           id: 101,
-          title: 'Beach Wear',
-          images: [IMG5, IMG8],
+          title: 'Blue Shirt',
+          images: [BLUESHIRTONE, BLUESHIRTTWO],
         },
         {
           id: 102,
-          title: 'Casual Summer',
-          images: [IMG4, IMG3],
+          title: 'Green Shirt',
+          images: [GREENSHIRTONE, GREENSHIRTTWO],
         },
       ],
     },
     {
       id: 2,
       name: 'Winter Collection',
-      image: IMG2,
+      image: IMG8,
       listings: [
         {
           id: 201,
           title: 'Coats & Jackets',
-          images: [IMG1, IMG5],
+          images: [IMG8, IMG8],
         },
         {
           id: 202,
           title: 'Winter Accessories',
-          images: [IMG3, IMG4],
+          images: [IMG8, IMG8],
         },
       ],
     },
     {
         id: 4,
         name: 'Summer Collection',
-        image: IMG1,
+        image: IMG8,
         listings: [
           {
             id: 401,
             title: 'Beach Wear',
-            images: [IMG5, IMG8],
+            images: [IMG8, IMG8],
           },
           {
             id: 402,
             title: 'Casual Summer',
-            images: [IMG4, IMG3],
+            images: [IMG8, IMG8],
           },
         ],
       },
     {
         id: 3,
         name: 'Winter Collection',
-        image: IMG2,
+        image: IMG8,
         listings: [
           {
             id: 301,
             title: 'Coats & Jackets',
-            images: [IMG1, IMG5],
+            images: [IMG8, IMG8],
           },
           {
             id: 302,
             title: 'Winter Accessories',
-            images: [IMG3, IMG4],
+            images: [IMG8, IMG8],
           },
         ],
       },
