@@ -1,4 +1,4 @@
-import { FaPhoneAlt, FaEnvelope, FaTwitter, FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaPhoneAlt, FaEnvelope, FaUserTie, FaTwitter, FaFacebookF, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
     return(
@@ -16,14 +16,26 @@ const Footer = () => {
                             {/* icon */}
                             <FaPhoneAlt className="text-[1.4rem] text-[#d3a2ad]" />
                             {/* phone */}
-                            <p className="text-[1.6rem]">+234 780 2918 492</p>
+                            <p className="text-[1.6rem]">+1-501-445-1284</p>
                         </div>
                         {/* Email */}
                         <div className="flex items-center gap-[7px]">
                             {/* icon */}
                             <FaEnvelope className="text-[1.4rem] text-[#d3a2ad]" />
                             {/* email */}
-                            <p className="text-[1.6rem]">info@glamoursketches.com</p>
+                            <p className="text-[1.6rem]">glamourclothings991@gmail.com</p>
+                        </div>
+                    </div>
+                    {/* CEO NAME */}
+                    <div>
+                        {/* heading */}
+                        <h1 className="text-[2rem] font-bold text-[#d3a2ad]">CEO NAME</h1>
+                        {/* Name */}
+                        <div className="flex items-center mt-[10px] gap-[7px]">
+                            {/* icon */}
+                            <FaUserTie className="text-[1.4rem] text-[#d3a2ad]" />
+                            {/* Name */}
+                            <p className="text-[1.6rem]">Keisha Dawn Palmer</p>
                         </div>
                     </div>
                     {/* follow us */}
