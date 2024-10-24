@@ -10,6 +10,9 @@ import TROUSERS from '../../assets/trousers.jpg';
 import BROWNTROUSERONE from '../../assets/brown_trouser_1.jpg';
 import BLACKTROUSERONE from '../../assets/black_trouser_1.jpg';
 import WHITETROUSERONE from '../../assets/white_trouser_1.jpg';
+import BLACKCAPONE from '../../assets/black_cap_1.jpg';
+import CAPS from '../../assets/caps.jpg';
+import BLUEHATONE from '../../assets/blue_hat_1.jpg';
 import IMG8 from '../../assets/home_section_eight.jpg';
 
 const cataloguesData = [
@@ -53,39 +56,22 @@ const cataloguesData = [
       ],
     },
     {
-        id: 4,
-        name: 'Caps',
-        image: IMG8,
-        listings: [
-          {
-            id: 401,
-            title: 'Beach Wear',
-            images: [IMG8, IMG8],
-          },
-          {
-            id: 402,
-            title: 'Casual Summer',
-            images: [IMG8, IMG8],
-          },
-        ],
-      },
-    {
         id: 3,
-        name: 'Winter Collection',
-        image: IMG8,
+        name: 'Caps',
+        image: CAPS,
         listings: [
           {
             id: 301,
-            title: 'Coats & Jackets',
-            images: [IMG8, IMG8],
+            title: 'Blue Hat',
+            images: [BLUEHATONE],
           },
           {
             id: 302,
-            title: 'Winter Accessories',
-            images: [IMG8, IMG8],
+            title: 'Black Cap',
+            images: [BLACKCAPONE],
           },
         ],
-      },
+      },  
 ];  
 
 const HomeSectionSeven = () => {
